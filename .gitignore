@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw API data — regenerate by running notebooks/01_data_collection.ipynb
+data/raw/*.csv
+
+# Model artifacts — regenerate by running notebooks/04_modeling.ipynb
+outputs/models/*.pkl
+
+# Temp files
+sample_team_game_log.csv
