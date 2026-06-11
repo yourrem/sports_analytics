@@ -1,6 +1,8 @@
 # Sports Analytics — NBA Game Outcome Prediction
 
-Predicting NBA game outcomes using rolling team stats, rest-day features, and home/away splits across 5 seasons (2020-21 through 2024-25). Includes SHAP analysis for model explainability.
+## Ooverview
+
+This project aims to build a machine learning model that can predict the outcome of a given NBA matchup. All team data is pulled from public NBA APIs. We used pulled data to then feature engineer columns such as rolling team stats, rest-day features, and home/away splits across 5 seasons (2020-21 through 2024-25). Model will then be used to predict outcomes of the latter half of the 2025-2026 NBA seaason.
 
 **Data:** [nba_api](https://github.com/swar/nba_api) — official NBA stats, no API key required
 
