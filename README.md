@@ -19,8 +19,8 @@ Run in order:
 | Notebook | Description |
 |---|---|
 | `01_data_collection.ipynb` | Fetch team game logs, rosters, and player stats from nba_api and save to `data/raw/` |
-| `02_eda.ipynb` | Distributions, correlations, class balance |
-| `03_feature_engineering.ipynb` | Build feature matrix, save to `data/processed/features.csv` |
+| `02_feature_engineering.ipynb` | Build feature matrix, save to `data/processed/features.csv` |
+| `03_eda.ipynb` | Distributions, correlations, class balance |
 | `04_modeling.ipynb` | Train XGBoost/LightGBM, cross-validation, hyperparameter tuning |
 | `05_shap_analysis.ipynb` | SHAP summary, dependence plots, feature importance |
 
