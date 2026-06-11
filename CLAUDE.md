@@ -21,16 +21,16 @@ outputs/models/    — serialized model artifacts (.pkl)
 
 | File | Responsibility |
 |------|---------------|
-| `src/scraper.py` | Fetch game logs and player stats via nba_api |
+| `src/scraper.py` | Fetch team game logs via nba_api |
 | `src/features.py` | Rolling averages, rest days, home/away flag |
 | `src/model.py` | Train/predict wrappers, save/load helpers |
 | `src/evaluation.py` | Classification metrics, SHAP summary plot, feature importance plot |
 
 ## Notebook Order
 
-1. `01_data_collection.ipynb` — pull and save raw data from nba_api
-2. `02_eda.ipynb` — distributions, correlations, class balance check
-3. `03_feature_engineering.ipynb` — build feature matrix, save to processed/
+1. `01_data_collection.ipynb` — pull and save raw team game logs from nba_api
+2. `02_feature_engineering.ipynb` — build feature matrix, save to processed/
+3. `03_eda.ipynb` — distributions, class balance, feature relationships
 4. `04_modeling.ipynb` — train XGBoost/LightGBM, cross-validation, hyperparameter tuning
 5. `05_shap_analysis.ipynb` — SHAP summary, dependence plots, feature importance
 
